@@ -1,0 +1,367 @@
+header {
+    background: linear-gradient(to bottom, #33ccff 0%, #ccffff 100%);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+}
+.no_wrap {
+    clear: both;
+}
+header img {
+    float: left;
+    margin: .2em 0 0 3%;
+    width: 5%;
+    height: 90%;
+}
+h1 {
+    text-align: center;
+    font-size: 2em;
+}
+div#navigation {
+    background-color: turquoise;
+    margin-top: 5.2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: 30px;
+}
+button#button {
+    font-size: 1em;
+    float: left;
+    margin: .2em 1em .2em 2em;
+    border-radius: 15%;
+}
+body {
+    background-image: url(images/background1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+p#instruction {
+    font-size: 1.2em;
+    padding-top: .2em;
+}
+div#content {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+div.link {
+    width: 90%;
+    margin: 1em auto 1em auto;
+    background: linear-gradient(to bottom, #33ccff 0%, #ccffff 100%);
+    border: 2px solid grey;
+    padding-left: 1em;
+}
+.title {
+    font-weight: 900;
+    font-size: 1.5em;
+    font-family: 'Indie Flower', cursive;
+    padding-right: .4em;
+    color: blue;
+    text-decoration: none;
+}
+.title:hover {
+    color: rgb(55, 87, 109);
+    background-color: rgba(185, 216, 72, 0.562);
+}
+.info {
+    font-size: 1.2em;
+    font-weight: 800;
+    background-color: lightgreen;
+    width: 100%;
+    height: 30px;
+    border: 3px solid green;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 1%;
+}
+.headline {
+    margin-top: .3em;
+    margin-bottom: .3em;
+}
+.author {
+    margin-top: .3em;
+    margin-bottom: .3em;
+    font-style: italic;
+}
+.form {
+    clear: both;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+@media screen and (max-width: 1270px) {
+    div#navigation {
+        margin-top: 6%;
+    }
+}
+@media screen and (max-width: 1202px) {
+    div#navigation {
+        margin-top: 6.5%;
+    }
+}
+@media screen and (max-width: 1121px) {
+    div#navigation {
+        margin-top: 7%;
+    }
+    header img {
+        width: 5.5%;
+    }
+}
+@media screen and (max-width: 1000px) {
+    div#navigation {
+        margin-top: 7.5%;
+    }
+    header img {
+        width: 6%;
+    }
+}
+@media screen and (max-width: 960px) {
+    div#navigation {
+        margin-top: 8%;
+    }
+    header img {
+        width: 6.5%;
+    }
+}
+@media screen and (max-width: 927px) {
+    div#navigation {
+        margin-top: 8.5%;
+    }
+    header img {
+        width: 7%;
+    }
+}
+@media screen and (max-width: 850px) {
+    div#navigation {
+        margin-top: 9%;
+    }
+    header img {
+        width: 7.5%;
+    }
+}
+@media screen and (max-width: 790px) {
+    div#navigation {
+        margin-top: 9.5%;
+    }
+    header img {
+        width: 8%;
+    }
+}
+@media screen and (max-width: 750px) {
+    div#navigation {
+        margin-top: 10%;
+    }
+    header img {
+        width: 8.5%;
+    }
+}
+@media screen and (max-width: 720px) {
+    div#navigation {
+        margin-top: 10.5%;
+    }
+    header img {
+        width: 9%;
+    }
+}
+@media screen and (max-width: 690px) {
+    div#navigation {
+        margin-top: 11%;
+    }
+    header img {
+        width: 9.5%;
+    }
+}
+@media screen and (max-width: 640px) {
+    div#navigation {
+        margin-top: 11.5%;
+    }
+    header img {
+        width: 10%;
+    }
+}
+@media screen and (max-width: 600px) {
+    div#navigation {
+        margin-top: 12%;
+    }
+    header img {
+        width: 10.5%;
+    }
+}
+@media screen and (max-width: 580px) {
+    div#navigation {
+        margin-top: 12.5%;
+    }
+    header img {
+        width: 11%;
+    }
+}
+@media screen and (max-width: 560px) {
+    div#navigation {
+        margin-top: 13%;
+    }
+    header img {
+        width: 11.5%;
+    }
+    p#instruction {
+        font-size: .9em;
+        padding-top: .5em;
+    }
+}
+@media screen and (max-width: 510px) {
+    div#navigation {
+        margin-top: 13.5%;
+    }
+    header img {
+        width: 12%;
+    }
+}
+@media screen and (max-width: 500px) {
+    div#navigation {
+        margin-top: 14%;
+    }
+    header img {
+        width: 12.5%;
+    }
+}
+@media screen and (max-width: 480px) {
+    div#navigation {
+        margin-top: 14.6%;
+    }
+    header img {
+        width: 13.2%;
+    }
+    .info {
+        font-size: .9em;
+    }
+    .headline {
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 465px) {
+    div#navigation {
+        margin-top: 15.3%;
+        height: 40px;
+    }
+    header img {
+        width: 13.8%;
+    }
+    button#button {
+        margin-top: .6em;
+        font-size: .8em;
+    }
+    p#instruction {
+        padding-top: .5em;
+    }
+}
+@media screen and (max-width: 440px) {
+    div#navigation {
+        margin-top: 16%;
+    }
+    header img {
+        width: 14.5%;
+    }
+}
+@media screen and (max-width: 430px) {
+    div#navigation {
+        margin-top: 16.5%;
+    }
+    header img {
+        width: 15%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 420px) {
+    div#navigation {
+        margin-top: 17%;
+    }
+    header img {
+        width: 15.5%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 400px) {
+    div#navigation {
+        margin-top: 17.5%;
+    }
+    header img {
+        width: 16%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 390px) {
+    div#navigation {
+        margin-top: 18.3%;
+    }
+    header img {
+        width: 16.5%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 380px) {
+    div#navigation {
+        margin-top: 19%;
+    }
+    header img {
+        width: 17%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 370px) {
+    div#navigation {
+        margin-top: 19.7%;
+    }
+    header img {
+        width: 17.5%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+}
+@media screen and (max-width: 360px) {
+    div#navigation {
+        margin-top: 20.5%;
+    }
+    header img {
+        width: 18%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    button#button {
+        margin-top: .8em;
+    }
+}
+@media screen and (max-width: 320px) {
+    div#navigation {
+        margin-top: 22%;
+        width: 100%;
+    }
+    header img {
+        width: 18.5%;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    button#button {
+        margin-top: 1em;
+        font-size: .8em;
+    }
+    p#instruction {
+        padding-top: .7em;
+        font-size: .8em;
+    }
+}
